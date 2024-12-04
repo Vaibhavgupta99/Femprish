@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femprish – Equality For All</title>
+    <link rel="shortcut icon" href="./assets/img/cropped-Untitled-design-192x192.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_css_all.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <section class="my_nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <a href="" class="a1"><img class="logo" src="./assets/img/femprishlogo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item px-lg-3">
+                            <a class="nav-link" href="contact_us.html">Contact Us</a>
+                        </li>                  
+                    </ul>                
+              </div>
+
+              <a href="https://www.instagram.com/femprish/" target="_blank"><div class="btn btn-danger btn_insta b1">Instagram</div></a>
+
+            </div>
+          </nav>
+    </section>
+
+    <section class="sec_1 cc">
+        <h2>About Us</h2>
+        <a href="#"><i class="fa fa-chevron-up up_icon"></i></a>
+    </section>
+
+    <section class="sec_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 c1 order-lg-1 order-2">
+                    <div class="img"></div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <h2 class="h2">Welcome To Femprish</h2>
+                    <p class="p">Welcome to Femprish, a dynamic platform dedicated to promoting equality, fostering inclusivity, and empowering individuals to embrace their authentic selves, as we strive to redefine the meaning of ‘feminist’ and break down societal barriers.</p>
+                    <div class="ab d-flex">
+                        <div class="aa a1">
+                            <h2 id="experience">32</h2>
+                            <p>Experience</p>
+                        </div>
+                        <div class="aa a2">
+                            <h2 id="mentored">82</h2>
+                            <p>Mentored</p>
+                        </div>
+                        <div class="aa a3">
+                            <h2 id="serificates">28</h2>
+                            <p>Serificates</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_8">
+        <div class="container-fluid">
+            <div class="row">                
+                <div class="col-lg-8 offset-lg-2 mt-5">
+                    <div class="newsletter" style="margin-top: 0px;">
+                        <h2>Our Newsletter</h2>
+                        <div class="d-flex">
+                            <p>Stay Empowered and Informed: Subscribe to our Newsletter for the latest updates, empowering stories, and exclusive content delivered right to your inbox.</p>
+                            <div>
+                                <div class="btn">Subscribe Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec_9">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 c1">
+                    <div class="img"></div>
+                    <p>Working Towards Equality For All.</p>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="col-lg-3 c2">
+                    <p>Navigation</p>
+                    <ul>
+                        <li>Home</li>
+                        <li>Blog</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>404</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 c2">
+                    <p>Quick Links</p>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Blog</li>
+                        <li>Gallery</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 c2">
+                    <p>Our Mission</p>
+                    <p class="p1">Working towards equality for all.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="developer">
+                    <p>Made By Vaibhav Gupta – For the evaluation project given by Funngro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function run() {
+        document.getElementById('experience').innerHTML = `${a}`
+        document.getElementById('mentored').innerHTML = `${b}`
+        document.getElementById('serificates').innerHTML = `${c}`
+
+        if(a < 32){
+            setTimeout(run,300)
+            a++
+        }
+
+        if(b < 82){
+            setTimeout(run,150)
+            b++
+        }
+
+        if(c < 28){
+            setTimeout(run,300)
+            c++
+        }
+
+       }  
+       
+       window.addEventListener("scroll", () => {
+         scrollTop = document.documentElement.scrollTop;
+         console.log(scrollTop);
+        if (scrollTop >=  200) {
+          run() 
+        }
+      });
+    </script>
+
+    
+    <script src="./assets/js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
